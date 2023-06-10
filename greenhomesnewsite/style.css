@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+nav {
+	background-color: #c5d7cb;
+	margin-top: 0px; 
+}
+.navbar-brand {
+	background:url("images/logo/SVG/logomark.svg");
+	background-repeat: no-repeat;
+	margin-right: auto;
+	display: block;
+	height: 50px;
+	width: 50px;
+	margin-bottom:10px;
+	padding-right: 80%;
+	margin-left: 20px;
+}
+
+.nav-link {
+	color: #15345A !important; 
+}
+
+
+
+h1,h2,p {
+	color: #15345A;
+}
+p {
+	font-size: 1em;
+	font-weight:500;
+}
+.machine {
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.main-heading {
+	font-size: 3em;
+	margin-bottom: 15px;
+	font-weight: 100;
+	text-align: center;
+}
+.secondary-heading {
+	font-size: 1.5em;
+	margin-bottom: 30px;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 40px;
+}
+
+button:hover {
+	background-color: #1B753F;
+}
+
+
+
+.call {
+	background-color: transparent;
+	border-radius: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border: solid medium #15345A;
+    margin-bottom: 110px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.number{
+	
+}
+
+.landing_text{
+	width:100%;
+	margin-top: -40%;
+}
+
+.spacer{
+	height:50px;
+}
+.spacer2 {
+	margin-top:10px;
+}
+
+
+.landing_page{
+	height: 150vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("images/landing page.jpg");
+	background-repeat: no-repeat;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-size: cover;
+}
+
+.logo{
+	height: 150px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.page-title {
+	font-size: 3em;
+	margin-bottom: 15px;
+	font-weight: 100;
+	margin-top: 20px;
+}
+.services-list {
+	list-style: none;
+	padding: 0px;
+	
+}
+.services-list-item {
+	float: left;
+	margin-right: 10px;
+	color: #15345A;
+	border-right: solid thin;
+	padding-right: 10px
+}
+.services-list-item-last {
+	float: left;
+	margin-right: 10px;
+	color: #15345A;
+	padding-right: 10px;
+}
+
+.top-row-illustrations {
+	margin-top: 80px;
+}
+.bottom-row-illustrations {
+	margin-top: 80px;
+}
+
+.copy {
+	margin-top: 80px;
+}
+
+@media screen and (max-width: 500px) {
+	.main-heading {
+		font-size: 2.5em;
+	}
+	.secondary-heading {
+		font-size: 1.5em;
+	}
+	p {font-size: 1em;}
+	
+	.logo {
+		height: 170px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.machine {
+		height: 250px;
+	}
+	.call {
+		margin-bottom: 50px;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.navbar-brand {
+		visibility: hidden;
+	}
+	
+}
